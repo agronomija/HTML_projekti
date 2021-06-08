@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,600');
+
+
+.ac-veliki-okni {
+    display: flex;
+    height: 100vh;
+    width: auto;
+
+
+}
+
+.ac-bg-photo {
+    background-image: url("/images/jaz.JPG");
+    
+}
+
+body {
+    background-color: bisque;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: chartreuse;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a:hover {
+    color: coral;
+    
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+
+.ac-image {
+    height: 100vh;
+    background-image: url(jaz.JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+.ac-image2 {
+    height: 100vh;
+    background-image: url(jaz.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ac-content {
+    padding: 2.5rem;
+}
+
+
