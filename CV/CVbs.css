@@ -1,0 +1,48 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('haircut.jpg');
+   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+    
+}
+
+.frizer {
+    display: flex;
+    justify-content: center;
+    
+    
+    color: cyan;
+    font-style: italic;
+    
+}
+
+
+
+.bg-slika {
+  /* The image used */
+  background-image: url("photographer.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
